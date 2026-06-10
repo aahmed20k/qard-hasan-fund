@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>For Donors — Community Qard Hasan Fund</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<nav>
+  <div class="container nav-in">
+    <a href="index.html" class="brand">
+      <span class="mark"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3v18M5 8l7-5 7 5M5 8v9h14V8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+      Qard&nbsp;Hasan&nbsp;Fund
+    </a>
+    <button class="burger" id="burger"><svg width="26" height="26" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    <div class="nav-links" id="navlinks">
+      <a href="index.html">Home</a>
+      <a href="donors.html" class="active">For Donors</a>
+      <a href="borrowers.html">For Applicants</a>
+      <a href="#give" class="cta">Give Now</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="hero-grid"></div>
+  <div class="container hero-in">
+    <span class="eyebrow reveal">For Donors</span>
+    <h1 class="reveal">A gift that <em>keeps</em> giving — and never charges riba.</h1>
+    <p class="reveal">Fund a permanent endowment whose returns lend, recycle, and lend again. Or give zakat that reaches eligible families directly. You choose; we keep them strictly separate.</p>
+    <div class="btn-row reveal">
+      <a href="#give" class="btn btn-gold">Give Now →</a>
+      <a href="#why" class="btn btn-ghost">Why it's different</a>
+    </div>
+  </div>
+</header>
+
+<section class="pattern-bg" id="why">
+  <div class="container">
+    <div class="sec-head center">
+      <span class="eyebrow">Why give here</span>
+      <h2>Your money does more than it would elsewhere</h2>
+      <p>Because loans are repaid and recycled, one gift to the endowment can fund several families over its lifetime.</p>
+    </div>
+    <div class="grid g-3">
+      <div class="card reveal">
+        <span class="tag">Recycles</span>
+        <h3>Lend once, help many</h3>
+        <p>A loan repaid is a loan re-lent. The same dollar can reach family after family — your generosity compounds.</p>
+      </div>
+      <div class="card reveal">
+        <span class="tag">Deductible</span>
+        <h3>501(c)(3) receipts</h3>
+        <p>General and endowment gifts are tax-deductible. You receive a documented receipt for every contribution.</p>
+      </div>
+      <div class="card reveal">
+        <span class="tag">Shariah-clean</span>
+        <h3>Zakat done right</h3>
+        <p>Designate zakat and it's segregated, never lent, and given only into eligible recipients' ownership — validity confirmed by our board.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="background:var(--parch-2)">
+  <div class="container">
+    <div class="sec-head">
+      <span class="eyebrow">Where it goes</span>
+      <h2>Two pockets, total transparency</h2>
+    </div>
+    <div class="pockets">
+      <div class="pocket a reveal">
+        <span class="lbl">If you give "General"</span>
+        <h3>Into the lending engine</h3>
+        <ul>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6 9 17l-5-5"/></svg> Seeds and grows the permanent waqf endowment.</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6 9 17l-5-5"/></svg> Funds interest-free loans + modest operating costs.</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6 9 17l-5-5"/></svg> Tax-deductible.</li>
+        </ul>
+      </div>
+      <div class="pocket b reveal">
+        <span class="lbl">If you give "Zakat"</span>
+        <h3>Into the grant arm</h3>
+        <ul>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6 9 17l-5-5"/></svg> Outright grants to zakat-eligible recipients.</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6 9 17l-5-5"/></svg> Forgives debt for eligible borrowers in hardship.</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6 9 17l-5-5"/></svg> Never lent, never co-mingled.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="pattern-bg" id="give">
+  <div class="container">
+    <div class="split">
+      <div class="reveal">
+        <span class="eyebrow" style="color:var(--gold)">Make your gift</span>
+        <h2 class="serif" style="font-size:2.4rem;margin:14px 0 18px">Choose your pocket. Choose your amount.</h2>
+        <p style="color:rgba(21,48,43,.74);margin-bottom:20px">Pick a designation and we'll route your gift correctly and instantly — with a receipt to match.</p>
+        <div class="media" style="min-height:300px">
+          <div class="quote">"The likeness of those who spend their wealth in the way of Allah is as a grain that grows seven ears."</div>
+          <div class="cite">— Qur'an 2:261</div>
+        </div>
+      </div>
+      <div class="reveal">
+        <form class="form-wrap" id="donateForm">
+          <div class="field">
+            <label>Designation</label>
+            <div class="toggle">
+              <button type="button" class="on" data-k="general">General / Waqf</button>
+              <button type="button" data-k="zakat">Zakat</button>
+            </div>
+            <p class="note" id="desigNote">General gifts fund the revolving interest-free loan pool and grow the permanent endowment. Tax-deductible under our 501(c)(3).</p>
+          </div>
+          <div class="field">
+            <label>Amount (USD)</label>
+            <div class="amounts">
+              <div class="amt" data-v="50">$50</div>
+              <div class="amt sel" data-v="150">$150</div>
+              <div class="amt" data-v="500">$500</div>
+              <div class="amt" data-v="1000">$1,000</div>
+            </div>
+            <input type="number" id="customAmt" value="150" min="1" required>
+          </div>
+          <div class="two-col">
+            <div class="field"><label>Full name</label><input type="text" required placeholder="Your name"></div>
+            <div class="field"><label>Email</label><input type="email" required placeholder="you@email.com"></div>
+          </div>
+          <div class="field">
+            <label>Frequency</label>
+            <select><option>One-time gift</option><option>Monthly</option><option>Quarterly</option><option>Annually</option></select>
+          </div>
+          <button type="submit" class="btn btn-dark" style="width:100%;justify-content:center">Complete my gift</button>
+          <div class="alert ok" id="donateAlert">Jazakum Allahu khayran. This is a concept demo — no payment was processed. Your selections were captured correctly and routed to the chosen pocket.</div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="background:var(--parch-2)">
+  <div class="container" style="max-width:820px">
+    <div class="sec-head center"><span class="eyebrow">Good to know</span><h2>Donor questions, answered</h2></div>
+    <div class="grid" style="gap:16px">
+      <div class="card reveal"><h3 style="font-size:1.15rem">Is my general gift really tax-deductible?</h3><p>Yes — general and endowment gifts to our 501(c)(3) are deductible. Zakat designations are deductible too as charitable gifts; their <em>zakat validity</em> is governed separately by how they're disbursed.</p></div>
+      <div class="card reveal"><h3 style="font-size:1.15rem">Can a single gift be both zakat and deductible?</h3><p>The deduction is about your taxes; zakat validity is about use and recipient. We honor both by segregating zakat funds and disbursing them only as grants to eligible recipients.</p></div>
+      <div class="card reveal"><h3 style="font-size:1.15rem">What happens if a borrower can't repay?</h3><p>If they're zakat-eligible, the zakat pocket forgives the balance and the lending pool is made whole — so your endowment gift stays intact.</p></div>
+    </div>
+  </div>
+</section>
+
+<footer class="pattern-bg">
+  <div class="container">
+    <div class="foot-grid">
+      <div>
+        <div class="brand" style="margin-bottom:16px">
+          <span class="mark"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3v18M5 8l7-5 7 5M5 8v9h14V8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          Qard Hasan Fund
+        </div>
+        <p style="font-size:.95rem;max-width:340px">A network of locally governed, interest-free lending funds backed by community endowment and zakat.</p>
+        <p class="disc">Illustrative concept. Requires Shariah board sign-off before launch. Not financial, legal, or religious advice.</p>
+      </div>
+      <div><h4>Explore</h4><ul><li><a href="index.html">Home</a></li><li><a href="donors.html">For Donors</a></li><li><a href="borrowers.html">For Applicants</a></li></ul></div>
+      <div><h4>Contact</h4><ul><li><a href="#">hello@qardhasanfund.org</a></li><li><a href="#">Shariah board</a></li><li><a href="#">Annual report</a></li></ul></div>
+    </div>
+    <div class="foot-bot"><span>© 2026 Community Qard Hasan Fund · 501(c)(3) concept</span><span>Built on trust, not interest.</span></div>
+  </div>
+</footer>
+<script src="app.js"></script>
+</body>
+</html>

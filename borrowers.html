@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>For Applicants — Community Qard Hasan Fund</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<nav>
+  <div class="container nav-in">
+    <a href="index.html" class="brand">
+      <span class="mark"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3v18M5 8l7-5 7 5M5 8v9h14V8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+      Qard&nbsp;Hasan&nbsp;Fund
+    </a>
+    <button class="burger" id="burger"><svg width="26" height="26" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    <div class="nav-links" id="navlinks">
+      <a href="index.html">Home</a>
+      <a href="donors.html">For Donors</a>
+      <a href="borrowers.html" class="active">For Applicants</a>
+      <a href="#apply" class="cta">Apply Now</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="hero-grid"></div>
+  <div class="container hero-in">
+    <span class="eyebrow reveal">For Applicants</span>
+    <h1 class="reveal">Support that meets you <em>where you are</em>.</h1>
+    <p class="reveal">No interest. No credit-score gauntlet. A local committee reviews your situation with dignity and discretion — and routes you to the right kind of help.</p>
+    <div class="btn-row reveal">
+      <a href="#apply" class="btn btn-gold">Start your application →</a>
+      <a href="#paths" class="btn btn-ghost">See if you qualify</a>
+    </div>
+  </div>
+</header>
+
+<section class="pattern-bg" id="paths">
+  <div class="container">
+    <div class="sec-head center">
+      <span class="eyebrow">Two kinds of help</span>
+      <h2>Loan or grant — we'll find your fit</h2>
+      <p>Our intake sorts every applicant into the right instrument. You don't need to know the rules; we do.</p>
+    </div>
+    <table class="elig reveal">
+      <thead><tr><th>Your situation</th><th>What you'd receive</th><th>Repayment</th></tr></thead>
+      <tbody>
+        <tr><td>Zakat-eligible (below the nisab, in genuine need)</td><td><span class="pill grant">Outright grant</span></td><td>None expected</td></tr>
+        <tr><td>Above nisab, facing a real, time-bound need</td><td><span class="pill loan">Qard hasan loan</span></td><td>Interest-free, scheduled</td></tr>
+        <tr><td>Student needing tuition or living support</td><td><span class="pill grant">Grant</span> or <span class="pill loan">loan</span></td><td>Case-by-case</td></tr>
+        <tr><td>Existing borrower who falls into hardship & qualifies</td><td><span class="pill grant">Forgiveness</span></td><td>Balance cleared</td></tr>
+      </tbody>
+    </table>
+    <p class="note" style="margin-top:14px">Nisab is the threshold of wealth that determines zakat eligibility. If you're unsure, just apply — the committee will assess it with you.</p>
+  </div>
+</section>
+
+<section style="background:var(--parch-2)">
+  <div class="container">
+    <div class="sec-head"><span class="eyebrow">How it works</span><h2>Four steps, handled with care</h2></div>
+    <div class="steps">
+      <div class="step reveal"><div class="num"></div><div><h3>Apply confidentially</h3><p>Tell us about your need and situation. Your information stays private to the local review committee.</p></div></div>
+      <div class="step reveal"><div class="num"></div><div><h3>Local review</h3><p>A small committee from your own community reviews your request — judging need and trust, not credit history.</p></div></div>
+      <div class="step reveal"><div class="num"></div><div><h3>Right-sized support</h3><p>You're matched to a grant or an interest-free loan, with terms that fit what you can realistically manage.</p></div></div>
+      <div class="step reveal"><div class="num"></div><div><h3>Repay & renew (loans only)</h3><p>Repayments flow back to help the next family. Fall into genuine hardship and qualify? Your balance can be forgiven.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="pattern-bg" id="apply">
+  <div class="container">
+    <div class="split">
+      <div class="reveal">
+        <span class="eyebrow" style="color:var(--gold)">Start here</span>
+        <h2 class="serif" style="font-size:2.4rem;margin:14px 0 18px">Your request, in confidence</h2>
+        <p style="color:rgba(21,48,43,.74);margin-bottom:20px">This takes a few minutes. Nothing is shared beyond your local review committee, and there's no obligation.</p>
+        <div class="media" style="min-height:300px">
+          <div class="quote">"And if the debtor is in hardship, then let there be postponement until ease."</div>
+          <div class="cite">— Qur'an 2:280</div>
+        </div>
+      </div>
+      <div class="reveal">
+        <form class="form-wrap" id="applyForm">
+          <div class="two-col">
+            <div class="field"><label>Full name</label><input type="text" required placeholder="Your name"></div>
+            <div class="field"><label>Email</label><input type="email" required placeholder="you@email.com"></div>
+          </div>
+          <div class="two-col">
+            <div class="field"><label>City / community</label><input type="text" required placeholder="Your local area"></div>
+            <div class="field"><label>Amount needed (USD)</label><input type="number" min="1" required placeholder="e.g. 2,500"></div>
+          </div>
+          <div class="field">
+            <label>Type of need</label>
+            <select><option>Tuition / education</option><option>Rent / housing</option><option>Medical</option><option>Debt relief</option><option>Business / tools</option><option>Other essential need</option></select>
+          </div>
+          <div class="field">
+            <label>Status (optional — helps us route you)</label>
+            <select><option>Prefer not to say</option><option>Full-time student</option><option>I believe I'm zakat-eligible</option><option>Employed, facing a temporary gap</option></select>
+          </div>
+          <div class="field">
+            <label>Briefly, what's the situation?</label>
+            <textarea rows="3" placeholder="A sentence or two is enough — the committee may follow up."></textarea>
+          </div>
+          <button type="submit" class="btn btn-dark" style="width:100%;justify-content:center">Submit my application</button>
+          <div class="alert ok" id="applyAlert">Thank you — this is a concept demo, so nothing was submitted. In a live fund, your local committee would reach out within a few days, in confidence.</div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="background:var(--parch-2)">
+  <div class="container" style="max-width:820px">
+    <div class="sec-head center"><span class="eyebrow">Reassurance</span><h2>What applicants ask us</h2></div>
+    <div class="grid" style="gap:16px">
+      <div class="card reveal"><h3 style="font-size:1.15rem">Will I be charged any interest or fees?</h3><p>Never. Qard hasan means a benevolent, interest-free loan. You repay only what you borrowed, on a schedule you can manage.</p></div>
+      <div class="card reveal"><h3 style="font-size:1.15rem">What if I genuinely can't repay later?</h3><p>If you fall into real hardship and qualify, the zakat arm can forgive your balance. The goal is relief, not pressure.</p></div>
+      <div class="card reveal"><h3 style="font-size:1.15rem">Is my information private?</h3><p>Yes. Your details stay with the local review committee and are used only to assess and support your request.</p></div>
+      <div class="card reveal"><h3 style="font-size:1.15rem">Do I need perfect credit?</h3><p>No. We lend on need and trust — references, character, and your community standing — not a credit score.</p></div>
+    </div>
+  </div>
+</section>
+
+<footer class="pattern-bg">
+  <div class="container">
+    <div class="foot-grid">
+      <div>
+        <div class="brand" style="margin-bottom:16px">
+          <span class="mark"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3v18M5 8l7-5 7 5M5 8v9h14V8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          Qard Hasan Fund
+        </div>
+        <p style="font-size:.95rem;max-width:340px">A network of locally governed, interest-free lending funds backed by community endowment and zakat.</p>
+        <p class="disc">Illustrative concept. Requires Shariah board sign-off before launch. Not financial, legal, or religious advice.</p>
+      </div>
+      <div><h4>Explore</h4><ul><li><a href="index.html">Home</a></li><li><a href="donors.html">For Donors</a></li><li><a href="borrowers.html">For Applicants</a></li></ul></div>
+      <div><h4>Contact</h4><ul><li><a href="#">hello@qardhasanfund.org</a></li><li><a href="#">Find your local fund</a></li><li><a href="#">Privacy</a></li></ul></div>
+    </div>
+    <div class="foot-bot"><span>© 2026 Community Qard Hasan Fund · 501(c)(3) concept</span><span>Built on trust, not interest.</span></div>
+  </div>
+</footer>
+<script src="app.js"></script>
+</body>
+</html>
